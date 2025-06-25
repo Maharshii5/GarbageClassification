@@ -44,26 +44,7 @@ Applying basic data augmentation techniques such as [mention techniques like ran
 Model Prototyping: I built and configured the initial deep learning model based on [mention chosen model, e.g., fine-tuned MobileNetV2, a simple custom CNN with X convolutional layers].
 First Training Run: I successfully executed the very first training run of the model. This confirmed the functionality of both the data pipeline and the model's ability to learn from the data, even if the initial accuracy was low.
 Evaluation Metrics Setup: I configured the necessary metrics, such as accuracy and loss, to monitor the model's performance during training.
-3. Getting Started
-Prerequisites
-Python [mention version, e.g., 3.8 or higher]
-pip (Python package installer)
-Installation
-Clone the repository:
-Bash
 
-git clone [Your Repository URL]
-cd [Your Project Folder Name]
-Create a virtual environment (recommended):
-    python -m venv venv
-# On Windows
-.\venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
-3. **Install dependencies:**bash
-pip install -r requirements.txt
-```
-(Note: You'll need to create a requirements.txt file based on the libraries you used. You can generate one using pip freeze > requirements.txt from within your activated virtual environment.)
 
 4. Dataset
 The dataset used for this project is [Name of Dataset, e.g., "The TrashNet Dataset", "My Custom Garbage Image Collection"]. It currently contains [Approximate Number] images categorized into [Number] distinct classes: [List Classes, e.g., "Plastic", "Paper", "Organic", "Metal", "Glass", "Cardboard"].
